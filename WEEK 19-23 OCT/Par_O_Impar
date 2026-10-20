@@ -1,0 +1,10 @@
+Algoritmo Par_o_Impar
+	Definir number Como Entero
+	Escribir " Dame un numero "
+	leer number
+	Si (number MOD 2)=0 Entonces
+		Escribir " Es par "
+	SiNo
+		Escribir " Es impar "
+	FinSi
+FinAlgoritmo
