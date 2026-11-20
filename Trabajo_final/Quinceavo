@@ -1,0 +1,14 @@
+Algoritmo contar_dias_de_calor
+    Definir temperatura, contador, dia Como Entero
+      contador <- 0
+        Para dia <- 1 Hasta 7 Con Paso 1 Hacer
+        Escribir "Ingrese la temperatura del dia ", dia
+        Leer temperatura
+        Si temperatura > 25 Entonces
+            contador <- contador + 1
+        FinSi
+    FinPara
+
+    Escribir "Cantidad de dias calurosos: ", contador
+
+FinAlgoritmo
