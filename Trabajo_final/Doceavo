@@ -1,0 +1,7 @@
+Algoritmo mostrar_multiplos
+    Definir numero Como Entero
+    Para numero <- 5 Hasta 50 Con Paso 5 Hacer
+        Escribir "Multiplo de 5: ", numero
+    FinPara
+
+FinAlgoritmo
