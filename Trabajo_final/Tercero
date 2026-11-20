@@ -1,0 +1,11 @@
+Algoritmo verificar_multiplo
+    Definir numero Como Entero
+    Escribir "Ingrese un numero:"
+    Leer numero
+    Si numero MOD 3 == 0 Entonces
+        Escribir "El numero ingresado SI es divisible por 3"
+    SiNo
+        Escribir "El numero ingresado NO es divisible por 3"
+    FinSi
+
+FinAlgoritmo
