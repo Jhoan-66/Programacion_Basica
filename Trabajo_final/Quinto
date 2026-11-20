@@ -1,0 +1,11 @@
+Algoritmo Precio_entrada_museo
+    Definir años Como Entero
+    Escribir "Ingrese su edad:"
+    Leer años
+    Si años >= 12 Y años <= 60 Entonces
+        Escribir "El costo de la entrada es de: 15000"
+    SiNo
+        Escribir "Usted puede ingresar gratis al museo"
+    FinSi
+
+FinAlgoritmo
