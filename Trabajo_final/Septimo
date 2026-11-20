@@ -1,0 +1,23 @@
+Algoritmo clasificar_calificacion
+    Definir calificacion Como Real
+    Escribir "Ingrese su calificacion (de 0 a 5):"
+    Leer calificacion
+    Si calificacion < 0 O calificacion > 5 Entonces
+        Escribir "El valor ingresado no es valido"
+    SiNo
+        Si calificacion < 3 Entonces
+            Escribir "Resultado: No aprobado"
+        SiNo
+            Si calificacion >= 3 Y calificacion < 4 Entonces
+                Escribir "Resultado: Aprobado con nivel aceptable"
+            SiNo
+                Si calificacion >= 4 Y calificacion <= 4.5 Entonces
+                    Escribir "Resultado: Buen desempeño"
+                SiNo
+                    Escribir "Resultado: Excelente desempeño"
+                FinSi
+            FinSi
+        FinSi
+    FinSi
+
+FinAlgoritmo
