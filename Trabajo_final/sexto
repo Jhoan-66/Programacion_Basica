@@ -1,0 +1,15 @@
+Algoritmo revisar_nivel_de_agua
+    Definir cantidad Como Real
+    Escribir "Ingrese el porcentaje de agua del tanque (0 a 100):"
+    Leer cantidad
+    Si cantidad < 20 Entonces
+        Escribir "ALERTA: El tanque tiene poca agua"
+    SiNo
+        Si cantidad >= 20 Y cantidad < 60 Entonces
+            Escribir "El tanque se encuentra a nivel moderado"
+        SiNo
+            Escribir "El tanque tiene un nivel de agua suficiente"
+        FinSi
+    FinSi
+
+FinAlgoritmo
