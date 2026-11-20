@@ -1,0 +1,14 @@
+Algoritmo Precio_entrada_cine
+    Definir años Como Entero
+    Definir estudiante Como Caracter
+    Escribir "Ingrese su edad:"
+    Leer años
+    Escribir "¿Es estudiante? Responda S o N:"
+    Leer estudiante
+    Si años >= 18 Y años <= 25 Y estudiante = "S" Entonces
+        Escribir "Tiene descuento. El precio de la entrada es: 10000"
+    SiNo
+        Escribir "No tiene descuento. El precio de la entrada es: 20000"
+    FinSi
+
+FinAlgoritmo
